@@ -1,3 +1,8 @@
+body
+{
+	margin-bottom: 10rem;
+}
+
 .top-bar, .top-bar-left, .top-bar-right li{
 background-color:#fff !important;
 }
@@ -10,7 +15,6 @@ padding: 0 !important;
 height:80px;
 }
 
-
 .top-bar-right{
 padding: 20px;
 }
@@ -21,4 +25,9 @@ padding: 20px;
 
 .callout{
 	background-color: #eee;
+}
+
+.footer
+{
+	background: white;
 }
