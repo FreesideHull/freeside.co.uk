@@ -1,10 +1,13 @@
-body
-{
-	margin-bottom: 10rem;
-}
-
 .top-bar, .top-bar-left, .top-bar-right li{
 background-color:#fff !important;
+}
+.top-bar{
+border-bottom: 1px solid rgba(10, 10, 10, 0.25)
+}
+
+#content{
+margin-top:20px;
+margin-bottom: 50px;
 }
 
 .logo a{
@@ -29,5 +32,10 @@ padding: 20px;
 
 .footer
 {
-	background: white;
+     position:fixed;
+     bottom:0;
+     width:100%;  	
+     border-top: 1px solid rgba(10, 10, 10, 0.25);
+     background-color: #eee;
+     padding:20px;
 }
