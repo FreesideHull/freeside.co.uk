@@ -1,0 +1,10 @@
+<ul class="menu" role="menubar">
+        {{#foreach navigation}}
+                    <li nav-{{slug}}{{#if current}} class="active" nav-current{{/if}} role="menuitem">
+                        <a href="{{url absolute="true"}}">{{label}}</a>
+                    </li>
+        {{/foreach}}
+                    <li>
+                        <a href="http://www.freeside.co.uk/wiki/index.php?title=Where_is_Freeside" class="menu-button button">Join</a>
+                    </li>
+</ul>
