@@ -9,36 +9,25 @@
     <link href="{{asset "css/app.css"}}" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" type="text/css" href="{{asset "css/rrssb.css"}}" />
     <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 <body>
     <link href=
     "http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css"
     rel="stylesheet">
-    <div class="top-bar">
+<div class="title-bar" data-responsive-toggle="menu" data-hide-for="medium">
+  <button class="menu-icon" type="button" data-toggle></button>
+  <div class="title-bar-title">Menu</div>
+</div>
+
+
+    <div class="top-bar" id="menu">
         <div class="row">
             <div class="top-bar-left">
                 <a class="logo" href="/"><img src="{{asset "assets/img/logo.svg"}}"></a>
             </div>
             <div class="top-bar-right">
                 {{navigation}}
-                <!--<ul class="menu" role="menubar">
-                    <li role="menuitem">
-                        <a href="http://www.freeside.co.uk/wiki">Wiki</a>
-                    </li>
-                    <li role="menuitem" >
-                        <a href="http://www.freeside.co.uk/blog">Blog</a>
-                    </li>
-                    <li role="menuitem" >
-                        <a href="http://www.freeside.co.uk/wiki/index.php?title=Slack">Chat</a>
-                    </li>
-                    <li role="menuitem" >
-                        <a href="http://www.freeside.co.uk/cams/">Cams</a>
-                    </li>
-                    <li>
-                        <a href="http://www.freeside.co.uk/wiki/index.php?title=Where_is_Freeside" class="menu-button button">Join</a>
-                    </li>
-                    !-->
-                </ul>
             </div>
         </div>
     </div>
